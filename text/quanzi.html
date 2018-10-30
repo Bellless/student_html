@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的朋友圈</title>
+<link rel="stylesheet" href="example/css/bootstrap.min.css" />
+<link rel="stylesheet" href="example/css/bootstrap-theme.min.css" />
+<script src="example/js/bootstrap.min.js"></script>
+<script src="example/js/jquery-2.1.1.min.js"></script>
+<link href="css/home.css" rel="stylesheet" type="text/css" />
+<link type="text/css" rel="stylesheet" href="css/clean.css" />
+<link type="text/css" rel="stylesheet" href="css/logtwo.css" />
+<link type="text/css" rel="stylesheet" href="css/time.css" />
+<script type="text/javascript">
+		$('#toggle').click(function() {
+			var content = $('#content').html;
+			
+			$("#bottomText").append(content);
+			
+		
+		});
+
+</script>
+</head>
+<body style="background:url('images/images/bg_02.png'); ">
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<img src="images/images/neirong_02.png" alt="图片" width="256"
+					height="58" align="middle">
+			</div>
+			<ul class="nav navbar-nav ">
+				<li><a href="index.html" class="aa"><img
+						src="images/images/neirong_05.png" width="28" height="26"
+						hspace="10" align="middle">首页</a></li>
+				<li><a href="huodong.html" class="aa"><img
+						src="images/images/neirong_07.png" width="28" height="26"
+						hspace="10" align="middle">我的活动</a></li>
+				<li><a href="my_grow_up.html" class="aa"><img
+						src="images/images/neirong_10.png" width="28" height="26"
+						hspace="10" align="middle">我的成长</a></li>
+				<li><a href="quanzi.html" class="aa"><img
+						src="images/images/neirong_12.png" width="28" height="26"
+						hspace="10" align="middle">我的圈子</a></li>
+			</ul>
+			<ul class="nav navbar-nav pull-right">
+				<li><a href="ucenter.html"> <img
+						src="images/images/20161218094105.png" class="img-circle"
+						width="28" height="26" hspace="8">等一个人的咖啡
+				</a></li>
+				<li class="dropdown"><a href="neirong.html" data-toggle="dropdown"><img
+						src="images/images/neirong_15.png" width="28" height="26"
+						align="middle"> <span class="notification">17</span> </a></li>
+				<li><a href="neirong.html"> <img src="images/images/neirong_18.png"
+						width="28" height="26" align="middle">
+				</a></li>
+			</ul>
+		</div>
+	</nav>
+	<!--整个主页剧中-->
+	<div class="all">
+		<!--图片轮播-->
+
+		<div id="myCarousel" class="carousel slide">
+			<!-- 轮播（Carousel）指标 -->
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+				<li data-target="#myCarousel" data-slide-to="1"></li>
+				<li data-target="#myCarousel" data-slide-to="2"></li>
+			</ol>
+			<!-- 轮播（Carousel）项目 -->
+			<div class="carousel-inner">
+				<div class="item active">
+					<img src="images/images/huodong_03.png" alt="First slide">
+				</div>
+				<div class="item">
+					<img src="images/images/huodong_03.png" alt="Second slide">
+				</div>
+				<div class="item">
+					<img src="images/images/huodong_03.png" alt="Third slide">
+				</div>
+			</div>
+			<!-- 轮播（Carousel）导航 -->
+			<a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+			<a class="carousel-control right" href="#myCarousel"
+				data-slide="next">&rsaquo;</a>
+		</div>
+
+		<div class="bottomPic">
+			<div class="test1 fl">
+				<form action="#" method="post">
+					<span>筛选班级：</span> <select>
+						<option class="option">&nbsp-请选择-&nbsp</option>
+						<option class="option">移动1602</option>
+						<option class="option">移动1602</option>
+						<option class="option">移动1602</option>
+					</select>
+				</form>
+			</div>
+
+			<div class="myInputText fr">
+				<div class="input-group">
+					<input type="text" class="form-control myInputStyle"> <span
+						class="input-group-btn">
+						<button class="btn btn-default bnResearch" type="button">搜索</button>
+					</span>
+				</div>
+			</div>
+		</div>
+		<div class="bigBoxMiddle">
+
+			<div class="leftleft">
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+				<div class="times"></div>
+				<div class="timesone">
+					<div class="areaHead">
+						<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;等一个人的咖啡
+					</div>
+				</div>
+				<div class="times"></div>
+			</div>
+
+			<div class="bigBoxMiddleRight fl">
+				<div class="bigBoxMiddleRightLittle">
+					<div class="fl">
+						<img src="images/images/20161218145203.png"
+							style="margin-top: 18px;margin-left: 20px;border: 1px solid #000000;" />
+					</div>
+					<div class="rightText fl">
+						<h4>
+							<strong>日志标题名称</strong>
+						</h4>
+						<div>10月17日，马来西亚多家媒体报道称有跨国犯罪团伙在中国拐骗儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁多年后...</div>
+						<div class="bottomText" id="bottomText" style="width: 380px;">
+							<a id="toggle"><img src="images/images/quanzi_03.png" />评论(35)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+								id="toggle"><img src="images/images/quanzi_06.png" />评星(2130)</a>
+						</div>
+						<div class="bottomLineOne" style="display: none;" id="content">
+							<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;&nbsp;<span
+								class="colorFont">笑话：</span>文章不错！！ <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9月15
+							10：30
+						</div>
+					</div>
+
+				</div>
+				<div class="bigBoxMiddleRightLittle">
+					<div class="fl">
+						<img src="images/images/20161218145203.png"
+							style="margin-top: 18px;margin-left: 20px;border: 1px solid #000000;" />
+					</div>
+					<div class="rightText fl">
+						<h4>
+							<strong>日志标题名称</strong>
+						</h4>
+						<div>10月17日，马来西亚多家媒体报道称有跨国犯罪团伙在中国拐骗儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁多年后...</div>
+						<div class="bottomText">
+							<a href="#"><img src="images/images/quanzi_03.png" />评论(35)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+								href="#"><img src="images/images/quanzi_06.png" />评星(2130)</a>
+						</div>
+						<div class="bottomLineOne">
+							<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;&nbsp;<span
+								class="colorFont">笑话：</span>文章不错！！ <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9月15
+							10：30
+						</div>
+					</div>
+
+				</div>
+				<div class="bigBoxMiddleRightLittle">
+					<div class="fl">
+						<img src="images/images/20161218145203.png"
+							style="margin-top: 18px;margin-left: 20px;border: 1px solid #000000;" />
+					</div>
+					<div class="rightText fl">
+						<h4>
+							<strong>日志标题名称</strong>
+						</h4>
+						<div>10月17日，马来西亚多家媒体报道称有跨国犯罪团伙在中国拐骗儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁多年后...</div>
+						<div class="bottomText">
+							<a href="#"><img src="images/images/quanzi_03.png" />评论(35)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+								href="#"><img src="images/images/quanzi_06.png" />评星(2130)</a>
+						</div>
+						<div class="bottomLineOne">
+							<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;&nbsp;<span
+								class="colorFont">小狗：</span>文章不错！！ <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9月15
+							10：30
+						</div>
+					</div>
+
+				</div>
+				<div class="bigBoxMiddleRightLittle">
+					<div class="fl">
+						<img src="images/images/20161218145203.png"
+							style="margin-top: 18px;margin-left: 20px;border: 1px solid #000000;" />
+					</div>
+					<div class="rightText fl">
+						<h4>
+							<strong>日志标题名称</strong>
+						</h4>
+						<div>10月17日，马来西亚多家媒体报道称有跨国犯罪团伙在中国拐骗儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁儿童，弄残，毁容并囚禁多年后...</div>
+						<div class="bottomText">
+							<a href="#"><img src="images/images/quanzi_03.png" />评论(35)</a>&nbsp;&nbsp;&nbsp;&nbsp;<a
+								href="#"><img src="images/images/quanzi_06.png" />评星(2130)</a>
+						</div>
+						<div class="bottomLineOne">
+							<img src="images/images/20161218094105.png" class="myHeadPic">&nbsp;&nbsp;<span
+								class="colorFont">小狗：</span>文章不错！！ <br>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;9月15
+							10：30
+						</div>
+					</div>
+
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="main-footer">
+		<img src="images/images/2016-12-18_103606.png" width="257"
+			height="118" align="bottom" margin-left="8px">
+		<div class="co_l" align="justify">
+			<p>地址：重庆大学城重庆电子工程职业学院 ｜ 邮编：401331 ｜ 校办电话：023-65926593 ｜
+				传真：023-65927000</p>
+			<p>版权：重庆电子工程职业学院 ｜ 渝ICP备12004063-3</p>
+			<p>招生咨询：023-65928128 65928126 ｜ 建议使用 IE8.0及以上浏览器</p>
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,117 @@
+@charset "utf-8";
+/* CSS Document */
+.navbar {
+  background: #75b9e6;
+}
+.notification {
+  background-color: #f68484;
+  border-radius: 4px;
+  font: bold 11px Arial;
+  color: #ffffff;
+  line-height: 20px;
+  min-width: 20px;
+  position: absolute;
+  top: 6px;
+  right: 5px;
+  text-align: center;
+  text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.navbar .nav li a:hover,
+.navbar .nav li a:focus {
+  background: #3498da ;
+}
+.sidebar {
+    margin-bottom: 0;
+    padding-left:10px;
+    padding-right:10px;
+}
+.card {
+    border-radius: 3px;
+    border: 1px #dedede solid;
+    background: #fff;
+    color: #555;
+    text-align: center;
+    margin-top: 12px;
+}
+.card .header {
+    background-position: top left;
+    background-size: cover;
+    height: 148px;
+}
+.card .avater {
+    display: inline-block;
+    margin-top: -40px;
+    position: relative;
+    background: #fff;
+    box-shadow: 0 1px #ccc;
+    border-radius: 100%;
+    border: 3px #fff solid;
+    overflow: hidden;
+}
+.sidebar-content {
+    padding: 20px;
+    padding-top: 10px;
+    background-color: #f8f8f8;
+    box-shadow: 0 1px 2px #aaa;
+}
+.card h3 {
+    margin: 10px 0 20px;
+    color: #111;
+    font-weight: normal;
+}
+.card ul {
+   list-style-type:  none;
+    border-top:1px #eee solid;
+    margin: 0;
+    padding: 0;
+}
+.card ul li {
+    float:left;
+    width: 50%;
+    padding: 8px 0;
+   
+}
+li.normal1{
+  border-left: 5px #66E3FF solid;
+ }
+.card ul li a:link, 
+.card ul li a:visited {
+        color: #FFA766;
+		font-size:22px;
+}
+.message{
+	margin-top: 12px;
+	}
+span.lin{ color:#39F}
+hr{
+	height:2px;
+	border:none;
+	border-top:2px 
+	dotted #185598; 
+	width: 80%;
+	}
+	div.hr1{
+	 margin-top:8px;
+	 }
+	input{
+                border: 1px solid #ccc; 
+                padding: 7px 0px;
+                border-radius: 3px; /*css3属性IE不支持*/
+                padding-left:10px; 
+				width:94%;
+            }
+div.item{
+	padding-top:10px;
+}
+div.main-footer {
+    margin: 20px 0 0 0;
+    background: #75b9e6;
+    border-top: 3px #75b9e6 solid;
+}
+div.co_l{ 
+   width:80%;
+   float:right;
+   margin-top: 12px;
+   }

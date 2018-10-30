@@ -1,0 +1,171 @@
+
+.top_box{
+	width: 100%;
+	height: 55px;
+	background: #93FFEB;
+	position: fixed;
+	z-index: 200;
+}
+.top_left{
+	width: 1000px;
+	height: 55px;
+}
+.topPic{
+	padding-left: 250px;
+	padding-right: 5px;
+}
+.four_title{
+	width: 120px;
+	height: 55px;
+	text-align: center;
+	font-size: 15px;
+	font-weight: bold;
+	vertical-align:center;
+	line-height: 50px;
+}
+
+a:hover div{
+	color: black;
+	text-decoration: none;
+}
+div a:hover{
+	color: red;
+	text-decoration: none;
+}
+.top_pic{
+	padding-top: 14px;
+}
+.top_right{
+	height: 55px;
+	width: 300px;
+}
+.userImg{
+	font-size: 15px;
+	font-weight: bold;
+	padding-left: 16px;
+}
+.little_pic{
+	margin-left: 35px;
+}
+.top_pic2{
+	padding-top: 14px;
+	margin-left: 5px;
+}
+.little_pic2{
+	margin-left: 8px;
+}
+.all{
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+	padding-top: 55px;
+	z-index: 102;
+}
+.test1{
+	width: 170px;
+}
+.btn_self{
+	border: 1px solid #6DB6FF;
+	border-radius: 5px;
+}
+.btn_font_color{
+	color: #A7D0F9;
+}
+select{
+	border: solid 1px #77B5FE;
+}
+.bottomPic{
+	width: 900px;
+	height: 55px;
+	border-bottom: 1px solid #D0D0D0;
+	font-size: 14px;
+	color: #A7D0F9;
+	margin-top: 20px;
+}
+.myInputText{
+	width: 400px;
+}
+.bnResearch{
+	background: #6DB6FF;
+	color: white;
+}
+.myInputStyle{
+	border: 1px solid #6DB6FF;
+	border-radius: 5px;
+}
+.bigBoxMiddle{
+	height: 600px;
+	width: 900px;
+	margin-top: 10px;
+}
+.leftleft{
+	float:left;
+	width: 200px;
+	border: none;
+}
+.areaHead{
+	width: 70px;
+	margin-top:-20px;
+	margin-left: 20px;
+}
+.myHeadPic{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}
+.bigBoxMiddleRight fl{
+	width: 650px;
+	height: 590px;
+}
+.bigBoxMiddleRightLittle{
+	height: 140px;
+	width: 674px;
+	border: 1px solid #6DB6FF;
+	background: white;
+	border-radius: 2px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.bottomLineOne{
+	
+    margin-left: 10px;
+    margin-top: 10px;
+    display: none;
+}
+.colorFont{
+    color: #00FFD0;
+}
+.rightText{
+	width: 380px;
+	margin-top: 28px;
+	margin-left: 35px;
+}
+.bottomText{
+	margin-top: 10px;
+}
+.bottomMenu{
+	width: 100%;
+	height: 160px;
+	background: #77B5FE;
+	margin-top: 100px;
+}
+.bottomMid{
+	margin: 0 auto;
+	width: 900px;
+	border: 1px solid #77B5FE;
+	position: relative;
+}
+p{
+	color: white;
+	font-size: 13px;
+}
+.lineOne{
+	margin-top: 22px;
+}
+.lineTwo{
+	margin-top: 8px;
+}
+.lineThree{
+	margin-top: 18px;
+}
+

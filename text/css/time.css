@@ -1,0 +1,32 @@
+.times {
+	height:30px;
+	border: 1px solid #0080ff;
+	border-top: none;
+	border-bottom: none ;
+	border-right: none ;
+	position: relative;
+}
+
+.timesone {
+	
+	margin-left:-4px;
+	width: 8px;
+	height: 8px;
+	border: 1px solid #0080ff;
+	border-radius: 50%;
+}
+.timesone:hover,
+.timesone:focus{
+	background: #77B5FE;
+}
+
+.areaHead{
+	width: 70px;
+	margin-top:-20px;
+	margin-left: 20px;
+}
+.myHeadPic{
+	border-radius: 50%;
+	width: 40px;
+	height: 40px;
+}

@@ -1,0 +1,181 @@
+@charset "utf-8";
+/* CSS Document */
+body {
+}
+
+.navbar {
+	width: 100%;
+	background: #75b9e6;
+	top: 0px;
+	z-index: 9999;
+	position: fixed; /*固定作用*/
+	/*ie6下样式，加下划线表示只针对ie6 的hack */
+	_position: absolute; /* 把导航栏位置定义为绝对位置  关键*/
+	_top: expression(documentElement.scrollTop + "px");
+	/* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+	/* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+	text-align: left;
+}
+
+.aa {
+	color: #fff;
+}
+
+.notification {
+	background-color: #f68484;
+	border-radius: 100%;
+	font: bold 11px Arial;
+	color: #ffffff;
+	line-height: 20px;
+	min-width: 20px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.navbar .nav li a:hover,
+.navbar .nav li a:focus {
+	background: #3498da;
+}
+
+Span:hover {
+	color: #FFFFFF;
+}
+
+div.main-footer {
+	postion: absolute;
+	bottom: 0;
+	margin: 50px 0 0 0;
+	background: #75b9e6;
+	border-top: 3px #75b9e6 solid;
+}
+
+div.co_l {
+	width: 80%;
+	float: right;
+	margin-top: 18px;
+}
+
+#home-sort {
+	border-bottom: 5px solid #00FF00;
+}
+
+span {
+	color: #808080;
+}
+
+select {
+	border: solid 1px #77B5FE;
+	color: #77B5FE;
+}
+
+.option {
+	color: #77B5FE;
+	font-weight: bold;
+}
+
+#home-title{
+	background: #FFFFFF;
+}
+
+.biaoti {
+	width: 60%;
+	border: solid 1px #77B5FE;
+}
+
+textarea {
+	border: solid 1px #77B5FE;
+	border-radius: 10px;
+}
+
+#home-photo1 {
+	padding: 0px 5px 10px 5px;
+}
+
+#home-photo2 {
+	padding: 0px 5px 10px 5px;
+}
+
+
+#home-postbutton1 {
+	padding: 0px 20px 0px 0px;
+}
+
+#home-postbutton2 {
+	padding: 0px 50px 0px 0px;
+}
+.sb1 {
+	background: #EF7B09;
+	color: #FFFFFF;
+}
+
+.sb2 {
+	background: #777373;
+	color: #FFFFFF;
+}
+.home-left-title {
+	border: 1px solid #0080ff;
+	margin: 8px;
+	text-align: center;
+}
+.home-left-main{
+	float:right;
+	margin: 8px;
+	height:300px;
+	border: 1px solid #0080ff;
+	border-top: none;
+	border-bottom: none ;
+	border-left: none ;
+}
+.home-left-title:hover {
+	background: #77B5FE;
+	color: #FFFFFF;
+}
+.home-left-title-main{
+	border: 1px solid #0080ff;
+	margin: 8px;
+	text-align: center;
+	background: #77B5FE;
+	color: #FFFFFF;
+}
+.col-lg-10{
+	margin-top: 8px;
+}
+.home-table-title{
+	background: #77B5FE;
+	color: #FFFFFF;
+}
+td{
+	text-align: center;
+}
+.home-bottomButton{
+	height: 32px;
+	width: 100%;
+	margin-top: 60px;
+	margin-bottom: 70px;
+	padding-left: 50%;
+}
+.home-bottomButtonOne,.home-bottomButton1,.home-bottomButton2,.home-bottomButton3,.home-bottomButton4,.home-bottomButton5{
+	height: 30px;
+	color: #337AB7;
+	border: 1px solid #A4A1A1;
+	text-align: center;
+	padding-top: 6px;
+	float:left;
+}
+.home-bottomButtonOne{
+	width: 70px;
+}
+.home-bottomButton1{
+	width: 30px;
+	color: white;
+	background: #337AB7;
+}
+.home-bottomButton2,.home-bottomButton3,.home-bottomButton4,.home-bottomButton5{
+	width: 30px;
+}
+

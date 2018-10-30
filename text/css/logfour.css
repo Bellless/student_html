@@ -1,0 +1,204 @@
+body{
+    background: url(../img/bg_02.png);
+}
+.navbar {
+	width: 100%;
+	background: #75b9e6;
+	top: 0px;
+	z-index: 9999;
+	position: fixed; /*固定作用*/
+	/*ie6下样式，加下划线表示只针对ie6 的hack */
+	_position: absolute; /* 把导航栏位置定义为绝对位置  关键*/
+	_top: expression(documentElement.scrollTop + "px");
+	/* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+	/* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+	text-align: left;
+}
+
+.aa {
+	color: #fff;
+}
+
+.notification {
+	background-color: #f68484;
+	border-radius: 100%;
+	font: bold 11px Arial;
+	color: #ffffff;
+	line-height: 20px;
+	min-width: 20px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.navbar .nav li a:hover,
+.navbar .nav li a:focus {
+	background: #3498da;
+}
+
+Span:hover {
+	color: #FFFFFF;
+}
+
+div.main-footer {
+	postion: absolute;
+	bottom: 0;
+	margin: 50px 0 0 0;
+	background: #75b9e6;
+	border-top: 3px #75b9e6 solid;
+}
+
+div.co_l {
+	width: 80%;
+	float: right;
+	margin-top: 18px;
+}
+span {
+	color: #808080;
+}
+
+select {
+	border: solid 1px #77B5FE;
+	color: #77B5FE;
+}
+.logfour-main{
+    width:900px;
+    height: 1600px;
+    margin-top: 40px;
+    position: relative;
+}
+
+.logfour-main-left{
+    width:420px;
+    height:1490px;
+}
+.logfour-main-left-content{
+    height: 140px;
+    width: 390px;
+    border:1px solid #77B5FE;
+    background: white;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.logfour-main-left-text{
+    width: 380px;
+    margin-top: 28px;
+    margin-left: 10px;
+}
+.bottom-text{
+    margin-top: 10px;
+}
+.middlePic{
+    position: relative;
+    top:-35px;
+}
+.logfour-main-right{
+    width:420px;
+    height:1490px;
+}
+.logfour-main-right-content{
+    width:390px;
+    height: 140px;
+    border:1px solid #F2F2F2;
+    margin-top: 15px;
+    margin-left: 5px;
+}
+.logfour-title-color{
+    width: 400px;
+    height: 40px;
+    background: #FE5858;
+    border-radius: 3px;
+    color: white;
+    text-align: center;
+    padding-top: 12px;
+}
+.logfour-title-color1{
+    width: 400px;
+    height: 40px;
+    background: #77B5FE;
+    border-radius: 3px;
+    color: white;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.logfour-title-color2{
+    padding-right: 5px;
+}
+.logfour-title-bottom-content{
+    width:400px;
+    height: 100px;
+    background: white;
+}
+.image-hread{
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.logfour-text-right{
+    width: 300px;
+    height:100px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+.logfour-text-right1{
+    margin-top:5px;
+}
+.logfour-title-bottom-content2{
+    width:400px;
+    height: 140px;
+    background: white;
+}
+.logfour-title-bottom-content3{
+    width:400px;
+    height: 100px;
+    background: white;
+}
+.logfour-title-color3{
+    width: 400px;
+    height: 40px;
+    background: #68C157;
+    border-radius: 3px;
+    color: white;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.logfour-title-color4{
+    width: 400px;
+    height: 40px;
+    background: #FEB95C;
+    border-radius: 3px;
+    color: white;
+    padding-top: 12px;
+    padding-left: 5px;
+}
+.logfour-title-gride{
+    height: 90px;
+    width:400px;
+}
+.logfour-main-all{
+    margin: 0 auto;
+    width: 900px;
+    position: relative;
+    padding-top: 55px;
+    z-index: 102;
+}
+hr {
+	height: 2px;
+	border: none;
+	border-top: 2px solid #8C8C8C;
+}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,52 @@
+@CHARSET "UTF-8";
+
+body {
+	background: url("images/images/bg_02.png");
+}
+
+.navbar {
+	width: 100%;
+	background: #75b9e6;
+	top: 0px;
+	z-index: 9999;
+	position: fixed; /*固定作用*/
+	/*ie6下样式，加下划线表示只针对ie6 的hack */
+	_position: absolute; /* 把导航栏位置定义为绝对位置  关键*/
+	_top: expression(documentElement.scrollTop + "px");
+	/* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+	/* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+	text-align: left;
+}
+
+.notification {
+	background-color: #f68484;
+	border-radius: 100%;
+	font: bold 11px Arial;
+	color: #ffffff;
+	line-height: 20px;
+	min-width: 20px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.navbar .nav li a:hover, .navbar .nav li a:focus {
+	background: #3498da;
+}
+
+.footer {
+	background:#75b9e6;
+	width:100%;
+	/*绝对定位 始终位于底部  */
+	position: fixed;
+	bottom: 0;
+}
+.footer-text{
+    width: 80%;
+	float: right;
+	margin-top: 18px;
+}

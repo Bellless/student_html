@@ -1,0 +1,150 @@
+@CHARSET "UTF-8";
+
+.navbar {
+	width: 100%;
+	background: #75b9e6;
+	top: 0px;
+	z-index: 9999;
+	position: fixed; /*固定作用*/
+	/*ie6下样式，加下划线表示只针对ie6 的hack */
+	_position: absolute; /* 把导航栏位置定义为绝对位置  关键*/
+	_top: expression(documentElement.scrollTop + "px");
+	/* 把导航栏位置放在浏览器垂直滚动条的顶端  关键 */
+	/* 让导航栏浮在网页的高层位置，遇到flash和图片时候也能始终保持最外层 */
+	text-align: left;
+}
+
+.aa {
+	color: #fff;
+}
+
+.notification {
+	background-color: #f68484;
+	border-radius: 100%;
+	font: bold 11px Arial;
+	color: #ffffff;
+	line-height: 20px;
+	min-width: 20px;
+	position: absolute;
+	top: 6px;
+	right: 5px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+	padding-left: 4px;
+	padding-right: 4px;
+}
+
+.navbar .nav li a:hover, .navbar .nav li a:focus {
+	background: #3498da;
+}
+
+.log-main {
+	margin: 0 auto;
+	width: 900px;
+	position: relative;
+	padding-top: 55px;
+}
+
+.log-fl {
+	margin-top: 20px;
+	float: left;
+}
+
+.log-search {
+	margin-left: 95px;
+	margin-top: 10px;
+}
+
+hr {
+	height: 2px;
+	border: none;
+	border-top: 2px solid #8C8C8C;
+}
+
+.log-image {
+	width: 900px;
+}
+
+.log-title-main {
+	width: 900px;
+	background: white;
+}
+
+.log-first {
+	height: 55px;
+	width: 900px;
+	border-bottom: 1px solid #8C8C8C;
+}
+.baoming {
+	line-height: 50px;
+}
+
+.baoming2 {
+	line-height: 50px;
+}
+
+.baoming3 {
+	line-height: 50px;
+}
+.log-left	{width: 800px;
+	margin-left: 10px;
+	padding-top: 5px;
+}
+
+
+
+.baoming a {
+	font-size: 15px;
+	color: red;
+}
+
+.baoming2 a {
+	font-size: 15px;
+	color: blue;
+}
+
+.baoming3 a {
+	font-size: 15px;
+	color: #C7C3C3;
+}
+
+.baoming a:hover {
+	text-decoration: underline;
+}
+
+.baoming2 a:hover {
+	text-decoration: underline;
+	color: blue;
+}
+
+.baoming3 a:hover {
+	text-decoration: underline;
+	color: #C7C3C3;
+}
+
+Span:hover {
+	color: #FFFFFF;
+}
+
+div.main-footer {
+	postion: absolute;
+	bottom: 0;
+	margin: 50px 0 0 0;
+	background: #75b9e6;
+	border-top: 3px #75b9e6 solid;
+}
+
+div.co_l {
+	width: 80%;
+	float: right;
+	margin-top: 18px;
+}
+
+span {
+	color: #808080;
+}
+
+select {
+	border: solid 1px #77B5FE;
+	color: #77B5FE;
+}
